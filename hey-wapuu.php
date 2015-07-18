@@ -16,7 +16,14 @@ function get_wapuu() {
 	https://github.com/marktimemedia/my-wapuu/raw/master/png/wapuu-brainhurts.png
 	https://github.com/marktimemedia/my-wapuu/raw/master/png/wapuu-dev.png
 	https://github.com/marktimemedia/my-wapuu/raw/master/png/wapuu-struggle.png
-	http://jawordpressorg.github.io/wapuu/wapuu-archive/scott-wapuu.png";
+	http://jawordpressorg.github.io/wapuu/wapuu-archive/scott-wapuu.png
+	http://jawordpressorg.github.io/wapuu/wapuu-archive/wapuu-france.png
+	http://jawordpressorg.github.io/wapuu/wapuu-archive/wapuunder.png
+	http://jawordpressorg.github.io/wapuu/wapuu-archive/wapuujlo.png
+	http://jawordpressorg.github.io/wapuu/wapuu-archive/WapuuPepe.png
+	http://jawordpressorg.github.io/wapuu/wapuu-archive/wctokyo_wapuu.png
+	http://jawordpressorg.github.io/wapuu/wapuu-archive/original-wapuu.png
+	http://jawordpressorg.github.io/wapuu/wapuu-archive/WapuuPepa.png";
 
 	$wapuu = explode( "\n", $wapuu );
 	return wptexturize( $wapuu[ mt_rand( 0, count( $wapuu ) - 1 ) ] );

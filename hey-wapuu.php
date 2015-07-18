@@ -8,16 +8,17 @@
  * Author URI: http://nik.techvoltz.com
  * License: GPL2
  */
- */
+
 
 function get_wapuu() {
 
 	$wapuu = "https://github.com/marktimemedia/my-wapuu/raw/master/png/wapuu-sleepy-wordcamp.png
 	https://github.com/marktimemedia/my-wapuu/raw/master/png/wapuu-brainhurts.png
 	https://github.com/marktimemedia/my-wapuu/raw/master/png/wapuu-dev.png
-	https://github.com/marktimemedia/my-wapuu/raw/master/png/wapuu-struggle.png";
+	https://github.com/marktimemedia/my-wapuu/raw/master/png/wapuu-struggle.png
+	http://jawordpressorg.github.io/wapuu/wapuu-archive/scott-wapuu.png";
 
-	$$wapuu = explode( "\n", $$wapuu );
+	$wapuu = explode( "\n", $wapuu );
 	return wptexturize( $wapuu[ mt_rand( 0, count( $wapuu ) - 1 ) ] );
 }
 

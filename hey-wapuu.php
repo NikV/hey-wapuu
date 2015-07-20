@@ -34,6 +34,6 @@ function get_wapuu() {
  */
 function hey_wapuu() {
 	$wapuus = get_wapuu();
-	echo "<img src='$wapuus' width='7%' style='float: right' height='10%'>";
+	echo "<img src='$wapuus' width='5%' style='float: right' height='10%'>";
 }
 add_action( 'admin_notices', 'hey_wapuu' );
